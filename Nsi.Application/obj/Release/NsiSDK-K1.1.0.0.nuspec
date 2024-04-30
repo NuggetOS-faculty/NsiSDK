@@ -1,14 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>Nsi.Application</id>
+    <id>NsiSDK-K1</id>
     <version>1.0.0</version>
-    <authors>Nsi.Application</authors>
-    <description>Package Description</description>
+    <authors>NSISDK</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>SDK for NSI</description>
+    <releaseNotes>First release of NSISDK. Includes basic functionality. 1.0.0</releaseNotes>
+    <tags>NSI</tags>
     <repository type="git" commit="34323a1f2aea63c3b77feb09713427147774a062" />
     <dependencies>
       <group targetFramework="net8.0">
-        <dependency id="NSISDK" version="1.0.3" exclude="Build,Analyzers" />
+        <dependency id="Nsi.Sdk" version="1.0.0" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>

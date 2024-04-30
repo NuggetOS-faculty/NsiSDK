@@ -5,17 +5,6 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <!-- NuGet package tags -->
-        <PackageId>NSISDK</PackageId>
-        <Version>1.0.3</Version>
-        <Authors>NSISDK</Authors>
-        <Company>NSISDK</Company>
-        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <Description>SDK for NSI</Description>
-        <PackageReleaseNotes>First release of NSISDK. Includes basic functionality. 1.0.3
-        </PackageReleaseNotes>
-        <PackageTags>NSI</PackageTags>
-        <RootNamespace>NsiSDK</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

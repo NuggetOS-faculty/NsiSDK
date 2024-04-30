@@ -5,10 +5,10 @@
   },
   "projects": {
     "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\Nsi.Sdk\\Nsi.Sdk.csproj": {
-      "version": "1.0.1",
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\Nsi.Sdk\\Nsi.Sdk.csproj",
-        "projectName": "NSISDK",
+        "projectName": "Nsi.Sdk",
         "projectPath": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\Nsi.Sdk\\Nsi.Sdk.csproj",
         "packagesPath": "C:\\Users\\onlin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\Nsi.Sdk\\obj\\",

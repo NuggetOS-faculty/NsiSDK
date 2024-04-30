@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Nsi.Application")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("NSISDK")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("SDK for NSI")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d499589d563302188c5e73413e8744c2940f544")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34323a1f2aea63c3b77feb09713427147774a062")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nsi.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nsi.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

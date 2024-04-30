@@ -83,17 +83,17 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "NSISDK/1.0.1": {
+      "Nsi.Sdk/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Refit": "7.0.0"
         },
         "compile": {
-          "bin/placeholder/NSISDK.dll": {}
+          "bin/placeholder/Nsi.Sdk.dll": {}
         },
         "runtime": {
-          "bin/placeholder/NSISDK.dll": {}
+          "bin/placeholder/Nsi.Sdk.dll": {}
         }
       }
     }
@@ -257,7 +257,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "NSISDK/1.0.1": {
+    "Nsi.Sdk/1.0.0": {
       "type": "project",
       "path": "../Nsi.Sdk/Nsi.Sdk.csproj",
       "msbuildProject": "../Nsi.Sdk/Nsi.Sdk.csproj"
@@ -265,7 +265,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "NSISDK >= 1.0.1"
+      "Nsi.Sdk >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -275,7 +275,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\Nsi.Application\\Nsi.Application.csproj",
-      "projectName": "Nsi.Application",
+      "projectName": "NsiSDK-K1",
       "projectPath": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\Nsi.Application\\Nsi.Application.csproj",
       "packagesPath": "C:\\Users\\onlin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\Nsi.Application\\obj\\",
