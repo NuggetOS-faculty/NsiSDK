@@ -14,6 +14,7 @@
         <Description>SDK for NSI</Description>
         <PackageReleaseNotes>First release of NSISDK. Includes basic functionality.</PackageReleaseNotes>
         <PackageTags>NSI</PackageTags>
+        <RootNamespace>NsiSDK</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

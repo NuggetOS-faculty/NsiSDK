@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsiSDK", "NsiSDK\NsiSDK.csproj", "{808C3A2F-E433-464B-A0EE-66FDADD1220C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nsi.Sdk", "Nsi.Sdk\Nsi.Sdk.csproj", "{808C3A2F-E433-464B-A0EE-66FDADD1220C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSISDK.Application", "NSISDK.Application\NSISDK.Application.csproj", "{31AD47E9-174F-429E-BB88-92FEF4F39F5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nsi.Application", "Nsi.Application\Nsi.Application.csproj", "{31AD47E9-174F-429E-BB88-92FEF4F39F5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -4,10 +4,11 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>NSISDK.Application</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\NsiSDK\NsiSDK.csproj" />
+      <ProjectReference Include="..\Nsi.Sdk\Nsi.Sdk.csproj" />
     </ItemGroup>
 
 </Project>

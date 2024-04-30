@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6xa4MewUkXxpcXq1vQjNhhoaMcUi2L2ouEm0WMdKEVNXfGdgNiHj6gCmV6Z6f4yOKq6wpyFJeQIPmPl16sM9iA==",
+  "dgSpecHash": "hqFn7O5qWe/w8jZeigsd+YMszRqALu7ygD7zy+eSmR4abGfWb3wrZfb4YCJNT0ZtMVCqK3xaIm2Pu5ZGw6AUxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\NsiSDK\\NsiSDK.csproj",
+  "projectFilePath": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\Nsi.Application\\Nsi.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\onlin\\.nuget\\packages\\refit\\7.0.0\\refit.7.0.0.nupkg.sha512",
     "C:\\Users\\onlin\\.nuget\\packages\\system.net.http.json\\7.0.1\\system.net.http.json.7.0.1.nupkg.sha512",

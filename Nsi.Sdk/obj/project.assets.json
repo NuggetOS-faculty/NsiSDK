@@ -254,13 +254,13 @@
     "C:\\Users\\onlin\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\NsiSDK\\NsiSDK.csproj",
+      "projectUniqueName": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\Nsi.Sdk\\Nsi.Sdk.csproj",
       "projectName": "NSISDK",
-      "projectPath": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\NsiSDK\\NsiSDK.csproj",
+      "projectPath": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\Nsi.Sdk\\Nsi.Sdk.csproj",
       "packagesPath": "C:\\Users\\onlin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\NsiSDK\\obj\\",
+      "outputPath": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\Nsi.Sdk\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\onlin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -281,11 +281,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
