@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsiSDK", "NsiSDK\NsiSDK.csproj", "{808C3A2F-E433-464B-A0EE-66FDADD1220C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSISDK.Application", "NSISDK.Application\NSISDK.Application.csproj", "{31AD47E9-174F-429E-BB88-92FEF4F39F5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{808C3A2F-E433-464B-A0EE-66FDADD1220C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808C3A2F-E433-464B-A0EE-66FDADD1220C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808C3A2F-E433-464B-A0EE-66FDADD1220C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808C3A2F-E433-464B-A0EE-66FDADD1220C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31AD47E9-174F-429E-BB88-92FEF4F39F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AD47E9-174F-429E-BB88-92FEF4F39F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AD47E9-174F-429E-BB88-92FEF4F39F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AD47E9-174F-429E-BB88-92FEF4F39F5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
