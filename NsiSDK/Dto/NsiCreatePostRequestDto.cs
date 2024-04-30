@@ -1,3 +1,3 @@
 ﻿namespace NsiSDK.Dto;
 
-public record NsiCreatePostRequestDto();
+public record NsiCreatePostRequestDto(NsiCreatePostDto Post);

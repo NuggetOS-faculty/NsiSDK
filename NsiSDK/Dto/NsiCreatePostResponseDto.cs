@@ -1,6 +1,3 @@
 ﻿namespace NsiSDK.Dto;
 
-public class NsiCreatePostResponseDto
-{
-    
-}
+public record NsiCreatePostResponseDto(string Title, string Content);

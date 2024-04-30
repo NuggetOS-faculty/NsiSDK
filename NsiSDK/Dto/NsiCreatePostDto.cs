@@ -1,3 +1,5 @@
-﻿namespace NsiSDK.Dto;
+﻿using System.Data.Common;
 
-public record NsiCreatePost ()
+namespace NsiSDK.Dto;
+
+public record NsiCreatePostDto(string title, string content);
