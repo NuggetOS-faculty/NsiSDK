@@ -1,0 +1,13 @@
+C:\Users\onlin\RiderProjects\NsiSDK\NsiSDK\bin\Release\net8.0\NsiSDK.deps.json
+C:\Users\onlin\RiderProjects\NsiSDK\NsiSDK\bin\Release\net8.0\NsiSDK.dll
+C:\Users\onlin\RiderProjects\NsiSDK\NsiSDK\bin\Release\net8.0\NsiSDK.pdb
+C:\Users\onlin\RiderProjects\NsiSDK\NsiSDK\obj\Release\net8.0\NsiSDK.csproj.AssemblyReference.cache
+C:\Users\onlin\RiderProjects\NsiSDK\NsiSDK\obj\Release\net8.0\NsiSDK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onlin\RiderProjects\NsiSDK\NsiSDK\obj\Release\net8.0\NsiSDK.AssemblyInfoInputs.cache
+C:\Users\onlin\RiderProjects\NsiSDK\NsiSDK\obj\Release\net8.0\NsiSDK.AssemblyInfo.cs
+C:\Users\onlin\RiderProjects\NsiSDK\NsiSDK\obj\Release\net8.0\NsiSDK.csproj.CoreCompileInputs.cache
+C:\Users\onlin\RiderProjects\NsiSDK\NsiSDK\obj\Release\net8.0\NsiSDK.sourcelink.json
+C:\Users\onlin\RiderProjects\NsiSDK\NsiSDK\obj\Release\net8.0\NsiSDK.dll
+C:\Users\onlin\RiderProjects\NsiSDK\NsiSDK\obj\Release\net8.0\refint\NsiSDK.dll
+C:\Users\onlin\RiderProjects\NsiSDK\NsiSDK\obj\Release\net8.0\NsiSDK.pdb
+C:\Users\onlin\RiderProjects\NsiSDK\NsiSDK\obj\Release\net8.0\ref\NsiSDK.dll

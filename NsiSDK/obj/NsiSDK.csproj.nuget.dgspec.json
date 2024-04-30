@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\NsiSDK\\NsiSDK.csproj",
-        "projectName": "NsiSDK",
+        "projectName": "NSISDK",
         "projectPath": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\NsiSDK\\NsiSDK.csproj",
         "packagesPath": "C:\\Users\\onlin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\NsiSDK\\obj\\",
@@ -32,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {

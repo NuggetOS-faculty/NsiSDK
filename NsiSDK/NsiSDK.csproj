@@ -4,10 +4,20 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <!-- NuGet package tags -->
+        <PackageId>NSISDK</PackageId>
+        <Version>1.0.1</Version>
+        <Authors>NSISDK</Authors>
+        <Company>NSISDK</Company>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Description>SDK for NSI</Description>
+        <PackageReleaseNotes>First release of NSISDK. Includes basic functionality.</PackageReleaseNotes>
+        <PackageTags>NSI</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Refit" Version="7.0.0" />
+        <PackageReference Include="Refit" Version="7.0.0"/>
     </ItemGroup>
 
 </Project>
