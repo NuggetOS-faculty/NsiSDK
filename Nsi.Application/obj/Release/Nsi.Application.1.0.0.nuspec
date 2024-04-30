@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Nsi.Application</id>
+    <version>1.0.0</version>
+    <authors>Nsi.Application</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3d499589d563302188c5e73413e8744c2940f544" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NSISDK" version="1.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\onlin\RiderProjects\NsiSDK\Nsi.Application\bin\Release\net8.0\Nsi.Application.dll" target="lib\net8.0\Nsi.Application.dll" />
+  </files>
+</package>
