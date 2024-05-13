@@ -6,13 +6,13 @@
         <Nullable>enable</Nullable>
         <RootNamespace>NSISDK.Application</RootNamespace>
         <PackageId>NsiSDK-K1</PackageId>
-        <Version>1.0.2</Version>
+        <Version>1.0.3</Version>
         <Authors>NSISDK</Authors>
         <Company>NSISDK</Company>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <Description>SDK for NSI</Description>
-        <PackageReleaseNotes>First release of NSISDK. Includes basic functionality. 1.0.1
+        <PackageReleaseNotes>First release of NSISDK. Includes basic functionality. 1.0.3
         </PackageReleaseNotes>
         <PackageTags>NSI</PackageTags>
         <RootNamespace>NsiSDK</RootNamespace>
@@ -20,7 +20,26 @@
 
 
     <ItemGroup>
-        <ProjectReference Include="..\Nsi.Sdk\Nsi.Sdk.csproj"/>
+        <ProjectReference PrivateAssets="all" Include="..\Nsi.Sdk\Nsi.Sdk.csproj"/>
     </ItemGroup>
+
+    <PropertyGroup>
+        <TargetsForTfmSpecificBuildOutput>$(TargetsForTfmSpecificBuildOutput);CopyProjectReferencesToPackage</TargetsForTfmSpecificBuildOutput>
+    </PropertyGroup>
+
+    <Target Name="CopyProjectReferencesToPackage" DependsOnTargets="BuildOnlySettings;ResolveReferences">
+        <ItemGroup>
+            <!-- Filter out unnecessary files -->
+            <_ReferenceCopyLocalPaths Include="@(ReferenceCopyLocalPaths-&gt;WithMetadataValue('ReferenceSourceTarget', 'ProjectReference')-&gt;WithMetadataValue('PrivateAssets', 'All'))"/>
+        </ItemGroup>
+
+        <!-- Print batches for debug purposes -->
+        <Message Text="Batch for .nupkg: ReferenceCopyLocalPaths = @(_ReferenceCopyLocalPaths), ReferenceCopyLocalPaths.DestinationSubDirectory = %(_ReferenceCopyLocalPaths.DestinationSubDirectory) Filename = %(_ReferenceCopyLocalPaths.Filename) Extension = %(_ReferenceCopyLocalPaths.Extension)" Importance="High" Condition="'@(_ReferenceCopyLocalPaths)' != ''"/>
+
+        <ItemGroup>
+            <!-- Add file to package with consideration of sub folder. If empty, the root folder is chosen. -->
+            <BuildOutputInPackage Include="@(_ReferenceCopyLocalPaths)" TargetPath="%(_ReferenceCopyLocalPaths.DestinationSubDirectory)"/>
+        </ItemGroup>
+    </Target>
 
 </Project>
