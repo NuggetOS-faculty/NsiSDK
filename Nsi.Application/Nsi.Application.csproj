@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <RootNamespace>NSISDK.Application</RootNamespace>
         <PackageId>NsiSDK-K1</PackageId>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <Authors>NSISDK</Authors>
         <Company>NSISDK</Company>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
