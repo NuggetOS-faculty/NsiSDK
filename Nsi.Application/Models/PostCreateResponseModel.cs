@@ -1,6 +1,6 @@
 ﻿namespace NSISDK.Application.Models;
 
-public record PostProductCreateResposeModel(
+public record PostCreateResponseModel(
     string Title,
     string Content
 );

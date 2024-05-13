@@ -5,7 +5,7 @@ using NsiSDK.Dto;
 
 namespace NSISDK.Application.Client;
 
-public class NsiClient(INsiApi api)
+public class NsiClient(INsiApi api) : INsiClient
 {
     public async Task<NsiCreatePostResponseDto> CreateProductAsync(PostCreateRequestModel request)
     {

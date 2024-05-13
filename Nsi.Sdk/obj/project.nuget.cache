@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RTsPGIGSUuNXgUb8BM5z3zoRIh0UitNPj9TrSbpr5tiEfqf0WhetWhjAm5DGcfaWQrtg1894EGH+cHW+PbsmFA==",
+  "dgSpecHash": "hAIChdeyCI+7NK8I5b5mpYkC5rySvq2TaySAWWaHr+NdVAuHUeUbc/Iq5zYZYowThGhpQogFb3IXZcZ2YFW53A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\onlin\\RiderProjects\\NsiSDK\\Nsi.Sdk\\Nsi.Sdk.csproj",
+  "projectFilePath": "C:\\Users\\Nikola\\RiderProjects\\NsiSDK\\Nsi.Sdk\\Nsi.Sdk.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\onlin\\.nuget\\packages\\refit\\7.0.0\\refit.7.0.0.nupkg.sha512",
-    "C:\\Users\\onlin\\.nuget\\packages\\system.net.http.json\\7.0.1\\system.net.http.json.7.0.1.nupkg.sha512",
-    "C:\\Users\\onlin\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\onlin\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512"
+    "C:\\Users\\Nikola\\.nuget\\packages\\refit\\7.0.0\\refit.7.0.0.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\system.net.http.json\\7.0.1\\system.net.http.json.7.0.1.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Nikola\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512"
   ],
   "logs": []
 }

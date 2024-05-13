@@ -4,5 +4,5 @@ namespace NSISDK.Application.Models;
 
 public interface INsiClient
 {
-    public Task<NsiCreatePostResponseDto> CreateProductAsync(PostProductCreateResposeModel request);
+    public Task<NsiCreatePostResponseDto> CreateProductAsync(PostCreateRequestModel request);
 }
