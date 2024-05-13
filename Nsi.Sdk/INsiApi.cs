@@ -1,11 +1,11 @@
 ﻿using NsiSDK.Dto;
 using Refit;
 
-namespace NsiSDK;
+namespace Nsi.SDK;
 
 public interface INsiApi
 {
-    [Post("/webhook/ProductWebhook/Create/create")]
+    [Post("/webhook/PostWebHook/CreatePost")]
     public Task<NsiCreatePostResponseDto> CreateProductAsync(NsiCreatePostRequestDto request,
         [HeaderCollection] IDictionary<string, string> headers);
 }

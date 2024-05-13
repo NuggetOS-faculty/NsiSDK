@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nsi.Sdk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad5400011dc8745120d3fc516a9404713802d0a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe692453dac749cd400fdb051451dc8d57aa3261")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nsi.Sdk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nsi.Sdk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

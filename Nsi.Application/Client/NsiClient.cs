@@ -1,4 +1,5 @@
-﻿using NsiSDK;
+﻿using Nsi.SDK;
+using NsiSDK;
 using NSISDK.Application.Extensions;
 using NSISDK.Application.Models;
 using NsiSDK.Dto;
