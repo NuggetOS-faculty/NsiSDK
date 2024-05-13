@@ -7,9 +7,10 @@ namespace NSISDK.Application.Client;
 
 public class NsiClient(INsiApi api) : INsiClient
 {
-    public async Task<NsiCreatePostResponseDto> CreateProductAsync(PostCreateRequestModel request)
+    public async Task<NsiCreatePostResponseDto> CreateProductAsync(PostCreateRequestModel request,
+        IDictionary<string, string> headers)
     {
-        var result = await api.CreateProductAsync(request.ToDto(), request.Headers);
+        var result = await api.CreateProductAsync(request.ToDto(), headers);
         return result.ToModel();
     }
 }
