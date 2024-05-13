@@ -5,5 +5,5 @@ namespace NSISDK.Application.Models;
 public interface INsiClient
 {
     public Task<NsiCreatePostResponseDto> CreateProductAsync(PostCreateRequestModel request,
-        IDictionary<string, string> Headers);
+        IDictionary<string, string> headers);
 }
