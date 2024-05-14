@@ -6,6 +6,6 @@ public record PostCreateRequestModel(string Title, string Content)
 {
     public NsiCreatePostRequestDto ToDto()
     {
-        return new NsiCreatePostRequestDto(new NsiCreatePostDto(Title, Content));
+        return new NsiCreatePostRequestDto(Title, Title + Content);
     }
 }
