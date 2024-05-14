@@ -2,10 +2,10 @@
 
 namespace NSISDK.Application.Models;
 
-public record PostCreateRequestModel(string Name, string Content)
+public record PostCreateRequestModel(string Title, string Content)
 {
     public NsiCreatePostRequestDto ToDto()
     {
-        return new NsiCreatePostRequestDto(new NsiCreatePostDto(Name, Content));
+        return new NsiCreatePostRequestDto(new NsiCreatePostDto(Title, Content));
     }
 }

@@ -273,7 +273,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.6",
     "restore": {
       "projectUniqueName": "C:\\Users\\Nikola\\RiderProjects\\NsiSDK\\Nsi.Application\\Nsi.Application.csproj",
       "projectName": "NsiSDK-K1",
@@ -301,7 +301,8 @@
           "targetAlias": "net8.0",
           "projectReferences": {
             "C:\\Users\\Nikola\\RiderProjects\\NsiSDK\\Nsi.Sdk\\Nsi.Sdk.csproj": {
-              "projectPath": "C:\\Users\\Nikola\\RiderProjects\\NsiSDK\\Nsi.Sdk\\Nsi.Sdk.csproj"
+              "projectPath": "C:\\Users\\Nikola\\RiderProjects\\NsiSDK\\Nsi.Sdk\\Nsi.Sdk.csproj",
+              "privateAssets": "all"
             }
           }
         }

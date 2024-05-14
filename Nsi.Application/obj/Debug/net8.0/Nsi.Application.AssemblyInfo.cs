@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("SDK for NSI")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.6.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.6+8a614724eb64dc412b367f33c9b91d01444cf394")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.6+434cb3ce4fac544b4a8936be265725d58a113bc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nsi.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nsi.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.6.0")]

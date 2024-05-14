@@ -5,8 +5,4 @@ namespace NSISDK.Application.Extensions;
 
 public static class ResponseExtensions
 {
-    public static NsiCreatePostResponseDto ToModel(this NsiCreatePostResponseDto dto)
-    {
-        return new NsiCreatePostResponseDto(dto.Title, dto.Content);
-    }
 }
