@@ -6,13 +6,13 @@
         <Nullable>enable</Nullable>
         <RootNamespace>NSISDK.Application</RootNamespace>
         <PackageId>NsiSDK-K1</PackageId>
-        <Version>1.0.7</Version>
+        <Version>1.0.8</Version>
         <Authors>NSISDK</Authors>
         <Company>NSISDK</Company>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <Description>SDK for NSI</Description>
-        <PackageReleaseNotes>First release of NSISDK. Includes basic functionality. 1.0.7
+        <PackageReleaseNotes>First release of NSISDK. Includes basic functionality. 1.0.8
         </PackageReleaseNotes>
         <PackageTags>NSI</PackageTags>
         <RootNamespace>NsiSDK</RootNamespace>
